@@ -1,9 +1,3 @@
--- ============================================================
--- FILE: 01_data_cleaning.sql
--- PURPOSE: Rename raw Kaggle tables to readable names,
---          clean date columns, and validate data quality
--- Dataset: Olist Brazilian E-Commerce (Kaggle)
--- ============================================================
 
 -- ── Step 1: Rename tables to readable names ─────────────────
 ALTER TABLE `Project`.`olist_customers_dataset` 
